@@ -1,0 +1,11 @@
+C:\Users\andri\source\repos\TabelamentoConstrucao\TabelamentoConstrucao\obj\Debug\TabelamentoConstrucao.csprojAssemblyReference.cache
+C:\Users\andri\source\repos\TabelamentoConstrucao\TabelamentoConstrucao\obj\Debug\TabelamentoConstrucao.Controlls.EntryLine.resources
+C:\Users\andri\source\repos\TabelamentoConstrucao\TabelamentoConstrucao\obj\Debug\TabelamentoConstrucao.Properties.Resources.resources
+C:\Users\andri\source\repos\TabelamentoConstrucao\TabelamentoConstrucao\obj\Debug\TabelamentoConstrucao.csproj.GenerateResource.cache
+C:\Users\andri\source\repos\TabelamentoConstrucao\TabelamentoConstrucao\obj\Debug\TabelamentoConstrucao.csproj.CoreCompileInputs.cache
+C:\Users\andri\source\repos\TabelamentoConstrucao\TabelamentoConstrucao\bin\Debug\TabelamentoConstrucao.exe.config
+C:\Users\andri\source\repos\TabelamentoConstrucao\TabelamentoConstrucao\bin\Debug\TabelamentoConstrucao.exe
+C:\Users\andri\source\repos\TabelamentoConstrucao\TabelamentoConstrucao\bin\Debug\TabelamentoConstrucao.pdb
+C:\Users\andri\source\repos\TabelamentoConstrucao\TabelamentoConstrucao\obj\Debug\TabelamentoConstrucao.exe
+C:\Users\andri\source\repos\TabelamentoConstrucao\TabelamentoConstrucao\obj\Debug\TabelamentoConstrucao.pdb
+C:\Users\andri\source\repos\TabelamentoConstrucao\TabelamentoConstrucao\obj\Debug\TabelamentoConstrucao.Form1.resources
