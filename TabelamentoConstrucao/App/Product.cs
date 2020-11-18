@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System;
 
-namespace TabelamentoConstrucao.Application {
+namespace TabelamentoConstrucao.App {
     public class Product {
         public string Name { get; set; }
-        public int Category { get; set; }
+        public string Category { get; set; }
     }
 }

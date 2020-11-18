@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TabelamentoConstrucao.Application {
+namespace TabelamentoConstrucao.App {
     public static class ApplicationLibrary {
         public static DBValues DBValues => DBTranspiler.DBValues;
         public static DBTranspiler DBTranspiler { get; set; }

@@ -44,18 +44,22 @@
             this.itemCategory_comboBox = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
             this.itemIndex_label = new System.Windows.Forms.Label();
+            this.textBox_date = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.textBox_dateTime = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
+            this.textBox_date.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.unitPrice_textBox);
-            this.panel1.Location = new System.Drawing.Point(557, 0);
+            this.panel1.Location = new System.Drawing.Point(684, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(142, 54);
             this.panel1.TabIndex = 8;
@@ -82,7 +86,7 @@
             // 
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.itemQuantity_textBox);
-            this.panel2.Location = new System.Drawing.Point(705, 0);
+            this.panel2.Location = new System.Drawing.Point(832, 0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(133, 54);
             this.panel2.TabIndex = 9;
@@ -109,7 +113,7 @@
             // 
             this.panel3.Controls.Add(this.label3);
             this.panel3.Controls.Add(this.totalAmount_textBox);
-            this.panel3.Location = new System.Drawing.Point(844, 0);
+            this.panel3.Location = new System.Drawing.Point(971, 0);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(151, 54);
             this.panel3.TabIndex = 10;
@@ -127,8 +131,11 @@
             // totalAmount_textBox
             // 
             this.totalAmount_textBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.totalAmount_textBox.BackColor = System.Drawing.SystemColors.Window;
+            this.totalAmount_textBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.totalAmount_textBox.Location = new System.Drawing.Point(43, 16);
             this.totalAmount_textBox.Name = "totalAmount_textBox";
+            this.totalAmount_textBox.ReadOnly = true;
             this.totalAmount_textBox.Size = new System.Drawing.Size(105, 20);
             this.totalAmount_textBox.TabIndex = 5;
             // 
@@ -136,7 +143,7 @@
             // 
             this.panel4.Controls.Add(this.itemName_comboBox);
             this.panel4.Controls.Add(this.label5);
-            this.panel4.Location = new System.Drawing.Point(51, 0);
+            this.panel4.Location = new System.Drawing.Point(178, 0);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(249, 54);
             this.panel4.TabIndex = 9;
@@ -164,7 +171,7 @@
             // 
             this.panel5.Controls.Add(this.itemCategory_comboBox);
             this.panel5.Controls.Add(this.label6);
-            this.panel5.Location = new System.Drawing.Point(306, 0);
+            this.panel5.Location = new System.Drawing.Point(433, 0);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(245, 54);
             this.panel5.TabIndex = 10;
@@ -197,11 +204,39 @@
             this.itemIndex_label.TabIndex = 0;
             this.itemIndex_label.Text = "Item [1]";
             // 
+            // textBox_date
+            // 
+            this.textBox_date.Controls.Add(this.textBox_dateTime);
+            this.textBox_date.Controls.Add(this.label1);
+            this.textBox_date.Location = new System.Drawing.Point(45, 0);
+            this.textBox_date.Name = "textBox_date";
+            this.textBox_date.Size = new System.Drawing.Size(129, 54);
+            this.textBox_date.TabIndex = 11;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(3, 19);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(33, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Data:";
+            // 
+            // textBox_dateTime
+            // 
+            this.textBox_dateTime.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox_dateTime.Location = new System.Drawing.Point(42, 16);
+            this.textBox_dateTime.Name = "textBox_dateTime";
+            this.textBox_dateTime.Size = new System.Drawing.Size(81, 20);
+            this.textBox_dateTime.TabIndex = 1;
+            // 
             // EntryLine
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
+            this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.Controls.Add(this.textBox_date);
             this.Controls.Add(this.itemIndex_label);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel4);
@@ -209,7 +244,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "EntryLine";
-            this.Size = new System.Drawing.Size(998, 57);
+            this.Size = new System.Drawing.Size(1125, 57);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -220,6 +255,8 @@
             this.panel4.PerformLayout();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
+            this.textBox_date.ResumeLayout(false);
+            this.textBox_date.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -241,5 +278,8 @@
         private System.Windows.Forms.ComboBox itemCategory_comboBox;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label itemIndex_label;
+        private System.Windows.Forms.Panel textBox_date;
+        private System.Windows.Forms.TextBox textBox_dateTime;
+        private System.Windows.Forms.Label label1;
     }
 }
